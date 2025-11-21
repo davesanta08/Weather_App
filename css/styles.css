@@ -1,0 +1,92 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the whole app */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5ea3ff, #6ef3d6);
+}
+
+/* Main title */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Form container */
+form {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+/* Input field */
+input {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #4b9fff;
+    box-shadow: 0 0 5px #4b9fff88;
+}
+
+/* Check button */
+button {
+    padding: 12px;
+    background: #4b9fff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2d82e6;
+}
+
+/* For displaying messages or weather info */
+#displayMsg {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    min-height: 30px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* #getbatt{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    line-height: 50px;
+
+} */
