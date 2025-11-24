@@ -70,5 +70,5 @@ checkBtn.addEventListener("click", (e) => {
   const city = input.value;
   //fetch weather
   fetchWeather(city);
-  navigator.vibrate(500);
+  // navigator.vibrate(500);
 });
