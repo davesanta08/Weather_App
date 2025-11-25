@@ -19,7 +19,7 @@ async function fetchWeather(city) {
       const data = await response.json();
       console.log(data);
       //display data on screen
-      displayMsg.innerHTML = `The temperature in ${data.current.temp_c} degrees and the humidity is ${data.current.humidity}%`;
+      displayMsg.innerHTML = `The temperature in ${city} is ${data.current.temp_c} degrees and the humidity is ${data.current.humidity}%`;
       //clear input screen
       clearInputScreen();
     }
