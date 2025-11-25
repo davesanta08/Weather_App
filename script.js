@@ -12,7 +12,7 @@ async function fetchWeather(city) {
   try {
     //fetch data
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`
     );
     //check if response status is ok
     if (response.status === 200) {
